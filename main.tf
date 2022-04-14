@@ -1,6 +1,9 @@
 /**
  * # Linux swap configuration
  *
+ * [![CI](https://github.com/figurate/terraform-null-swapfile/actions/workflows/main.yml/badge.svg)](https://github.com/figurate/terraform-null-swapfile/actions/workflows/main.yml)
+ *
+ *
  * Configure a swap file on a Linux host.
  */
 resource "null_resource" "target_host" {
